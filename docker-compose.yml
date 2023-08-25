@@ -87,7 +87,7 @@ services:
     ports:
       - "9000:9000"
     environment:
-      HOST: localhostdo
+      HOST: 127.0.0.1
       KAFKA_BROKERCONNECT: "kafka1:9092"
       JVM_OPTS: "-Xms32M -Xmx64M"
     depends_on:
